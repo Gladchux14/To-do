@@ -94,7 +94,7 @@ console.log("\nCompleted todos:");
 console.log(todoList.filterByStatus(true));
 // Update a task
 console.log("\nUpdating todo 2 description:");
-todoList.updateTaskDescription(2, "Buy weekly groceries");
+todoList.updateTaskDescription(2, "Listen to recorded session");
 console.log("Updated todo:", todoList.listTodos()[1]);
 // List overdue todos
 console.log("\nOverdue todos:");
